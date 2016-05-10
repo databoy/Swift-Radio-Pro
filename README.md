@@ -1,8 +1,8 @@
 #Swift Radio will soon be Chris Radio!
 
-But the good stuff is the Swift Radio, so I'll let the original creator speak for himself: 
+But the good stuff is the Swift Radio, so I'll let the original creator speak for himself [Your editor--yours truly--will stick to the brackets]:
 
-Swift Radio is an open source radio station app with robust and professional features. This is a fully realized Radio App built entirely in Swift 2. Learn to Code in Swift at [SwiftSchool.io](http://swiftschool.io). I've created a free "Intro to Coding" class there with over 40+ free videos. It's for beginners and non-programmers.
+Swift Radio is an open source radio station app with robust and professional features. This is a fully realized Radio App built entirely in Swift 2. Learn to Code in Swift at [SwiftSchool.io](http://swiftschool.io). [Matthew Fecher (swiftcodex) has] created a free "Intro to Coding" class there with over 40+ free videos. It's for beginners and non-programmers.
 
 ![alt text](http://matthewfecher.com/wp-content/uploads/2015/09/screen-1.jpg "Swift Radio")
 
@@ -77,7 +77,7 @@ Contributions are very welcome. Please create a separate branch (e.g. features/3
 ##FAQ
 
 Q: Do I have to pay you anything if I make an app with this code?  
-A: Nope. This is completely open source, you can do whatever you want with it. It's usually cool to thank the project if you use the code. Go build stuff. Enjoy.
+A: Nope. This is completely open source, you can do whatever you want with it. It's usually cool to thank the project [Thanks, Mr. Fecher] if you use the code. Go build stuff. Enjoy.
 
 Q: How do I use the iTunes API instead of LastFM?  
 A: In the SwiftRadio-Settings.swift file, set the "useLastFM" key to "false". You do not need an API key to use the iTunes API. It is free.
@@ -86,7 +86,7 @@ Q: The LastFM site isn't working properly? I can't create an API key.
 A: LastFM will sometimes put API signups on hold. You can check back later or try a different API.
 
 Q: It looks like your LastFM api key and secret might have been left in the code?  
-A: Yes, people may use it for small amounts of testing. However, I ask that you change it before submitting to the app store. (Plus, it would be self-defeating for someone to submit it to the app store with the testing keys, as it would quickly throttle out and their album art downloads would stop working!)
+A: Yes, people may use it for small amounts of testing. However, [Matthew Fecher (swiftcodex) asks] that you change it before submitting to the app store. (Plus, it would be self-defeating for someone to submit it to the app store with the testing keys, as it would quickly throttle out and their album art downloads would stop working!)
 
 Q: Is there another API to get album/track information besides LastFM and iTunes?  
 A: Rovi has a pretty sweet [music API](http://prod-doc.rovicorp.com/mashery/index.php/Data/APIs/Rovi-Music). The [Echo Nest](http://developer.echonest.com/) has all kinds of APIs that are fun to play with. 
@@ -98,7 +98,7 @@ Q: My radio station isn't playing?
 A: Paste your stream URL into a browser to see if it will play there. The stream may be offline or have a weak connection.
 
 Q: Can you help me add a feature? Can you help me understand the code? Can you help with a problem I'm having?  
-A: While I have a full-time job and other project obligations, I'd highly recommend you find a developer or mentor in your area to help. The code is well-documented and most developers should be able to help you rather quickly. While I am sometimes available for paid freelance work, **I am not able to provide any free support or modifications.** Thank you for understanding!
+A: While I have a full-time job and other project obligations, [Matthew Fecher (swiftcodex) would] highly recommend you find a developer or mentor in your area to help. The code is well-documented and most developers should be able to help you rather quickly. While [Matthew Fecher (swiftcodex) is] sometimes available for paid freelance work, **[Matthew Fecher (swiftcodex) is] not able to provide any free support or modifications.** Thank you for understanding!
 
 Q: The song names aren't appearing for my station?  
 A: Check with your stream provider to make sure they are sending Metadata properly. If a station sends data in a unique way, you can modify the way the app parses the metadata in the "metadataUpdated" method in the NowPlayingViewController.
@@ -118,4 +118,4 @@ Here's a branch of the code that plays streaming TV Stations instead of radio st
 
 ![alt text](http://matthewfecher.com/wp-content/uploads/2015/11/myTV.png "Swift TV")
 
-If you create an app with the code, or interesting project inspired by the code, shoot me an email: matthew.fecher@gmail.com. Note: As per the FAQ above, I am unable to offer any free support or modifications. Thanks!
+If you create an app with the code, or interesting project inspired by the code, shoot [Matthew Fecher (swiftcodex)] an email: matthew.fecher@gmail.com. Note: As per the FAQ above, [Matthew Fecher (swiftcodex) is] unable to offer any free support or modifications. Thanks!
